@@ -1,0 +1,145 @@
+{
+  "meta": {
+    "title": "Pernikahan Tika & Krisna — 19 Juni 2026",
+    "description": "Dengan penuh kebahagiaan, kami mengundang Anda untuk merayakan hari pernikahan kami.",
+    "url": "https://kartika-krisna.vercel.app",
+    "favicon": "/favicon.ico"
+  },
+  "couple": {
+    "bride": {
+      "fullName": "Murni Kartika Wulandari",
+      "nickname": "Tika",
+      "photo": "/foto/tika.jpg",
+      "instagram": "@tikamkw",
+      "parents": {
+        "father": "Bapak I Wayan Sudarsana",
+        "mother": "Ibu Ni Nyoman Sari Dewi"
+      }
+    },
+    "groom": {
+      "fullName": "I Gede Krisna",
+      "nickname": "Krisna",
+      "photo": "/foto/krisna.jpg",
+      "instagram": "@krisna_mahardita",
+      "parents": {
+        "father": "Bapak I Made Suardana",
+        "mother": "Ibu Ni Ketut Mariasih"
+      }
+    }
+  },
+  "weddingDate": "2026-06-19T08:00:00+08:00",
+  "events": [
+    {
+      "id": "akad",
+      "label": "Ceremony",
+      "name": "Akad Nikah",
+      "date": "Jumat, 19 Juni 2026",
+      "time": "08.00 — 10.00 WITA",
+      "venue": "Masjid Al-Ikhlas Jereweh",
+      "address": "Jl. Raya Jereweh, Kec. Jereweh, Sumbawa Barat, NTB",
+      "mapsUrl": "https://maps.google.com/?q=Jereweh,Sumbawa+Barat,NTB"
+    },
+    {
+      "id": "resepsi",
+      "label": "Reception",
+      "name": "Resepsi Pernikahan",
+      "date": "Jumat, 19 Juni 2026",
+      "time": "11.00 — 14.00 WITA",
+      "venue": "Gedung Serbaguna Jereweh",
+      "address": "Jl. Raya Jereweh, Kec. Jereweh, Sumbawa Barat, NTB",
+      "mapsUrl": "https://maps.google.com/?q=Jereweh,Sumbawa+Barat,NTB"
+    }
+  ],
+  "loveStory": [
+    {
+      "year": "2022",
+      "month": "Januari",
+      "title": "Awal Pertemuan",
+      "description": "Takdir mempertemukan kami dalam sebuah kesempatan yang tak terduga. Sebuah senyum pertama yang akan selalu dikenang.",
+      "photo": "/foto/IMG_3265.jpg"
+    },
+    {
+      "year": "2023",
+      "month": "Maret",
+      "title": "Semakin Dekat",
+      "description": "Setiap percakapan membawa kami semakin dekat satu sama lain. Kami menemukan kesamaan dan kehangatan dalam setiap langkah yang kami jalani bersama.",
+      "photo": "/foto/IMG_3330.jpg"
+    },
+    {
+      "year": "2024",
+      "month": "Juni",
+      "title": "Berjanji Selamanya",
+      "description": "Di hari yang penuh makna, kami saling berjanji untuk menjalani hidup bersama dalam suka dan duka, hingga akhir hayat.",
+      "photo": "/foto/IMG_3474.jpg"
+    },
+    {
+      "year": "2026",
+      "month": "Juni",
+      "title": "Menuju Pelaminan",
+      "description": "Dengan restu kedua orang tua dan doa seluruh keluarga, kami melangkah bersama menuju jenjang pernikahan yang suci dan penuh berkah.",
+      "photo": "/foto/IMG_3605.jpg"
+    }
+  ],
+  "gallery": [
+    "/foto/IMG_3265.jpg",
+    "/foto/IMG_3303.jpg",
+    "/foto/IMG_3319.jpg",
+    "/foto/IMG_3330.jpg",
+    "/foto/IMG_3340.jpg",
+    "/foto/IMG_3346.jpg",
+    "/foto/IMG_3352.jpg",
+    "/foto/IMG_3356.jpg",
+    "/foto/IMG_3375.jpg",
+    "/foto/IMG_3380.jpg",
+    "/foto/IMG_3397.jpg",
+    "/foto/IMG_3456.jpg",
+    "/foto/IMG_3465.jpg",
+    "/foto/IMG_3474.jpg",
+    "/foto/IMG_3491.jpg",
+    "/foto/IMG_3514.jpg",
+    "/foto/IMG_3518.jpg",
+    "/foto/IMG_3522.jpg",
+    "/foto/IMG_3535.jpg",
+    "/foto/IMG_3554.jpg",
+    "/foto/IMG_3557.jpg",
+    "/foto/IMG_3605.jpg",
+    "/foto/IMG_3608.jpg",
+    "/foto/IMG_3640.jpg",
+    "/foto/IMG_3652.jpg"
+  ],
+  "openingPhoto": "/foto/IMG_3522.jpg",
+  "video": "https://www.youtube.com/embed/u9dOdXOdmak",
+  "videoPoster": "/foto/IMG_3605.jpg",
+  "gifts": [
+    {
+      "type": "bank",
+      "bank": "BCA",
+      "accountNumber": "1234567890",
+      "accountName": "Murni Kartika Wulandari"
+    },
+    {
+      "type": "bank",
+      "bank": "BCA",
+      "accountNumber": "0987654321",
+      "accountName": "I Gede Krisna"
+    },
+    {
+      "type": "ewallet",
+      "name": "DANA",
+      "number": "0812-3456-7890",
+      "accountName": "Murni Kartika Wulandari"
+    }
+  ],
+  "address": {
+    "label": "Rumah Mempelai Wanita",
+    "detail": "Jl. Melati No. 12, Kel. Jereweh, Kec. Jereweh, Sumbawa Barat, NTB 84354",
+    "contact": "+62 812-3456-7890"
+  },
+  "quotes": {
+    "quran": "وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَاجًا لِّتَسْكُنُوا إِلَيْهَا",
+    "quranLatin": "Wa min āyātihī an khalaqa lakum min anfusikum azwājan litaskunū ilayhā",
+    "quranTranslation": "Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu pasangan-pasangan dari jenismu sendiri, supaya kamu cenderung dan merasa tenteram kepadanya.",
+    "quranSource": "— QS. Ar-Rum: 21",
+    "closing": "Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan doa restu kepada kami."
+  }
+}

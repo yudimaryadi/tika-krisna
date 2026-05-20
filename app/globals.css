@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: transparent;
+    color: #2c1a14;
+    overflow-x: hidden;
+  }
+
+  ::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #fdf7ef;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #c9726a;
+    border-radius: 2px;
+  }
+}
+
+@layer components {
+  .section-tag {
+    @apply font-body text-xs tracking-[0.4em] uppercase text-gold-500 block mb-3;
+  }
+
+  .section-title {
+    @apply font-display text-4xl md:text-5xl text-primary-600;
+  }
+
+  .divider {
+    @apply w-16 h-px bg-gradient-to-r from-transparent via-gold-400 to-transparent mx-auto my-4;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center gap-2 font-body text-xs tracking-[0.2em] uppercase border border-primary-400 text-primary-600 px-6 py-3 hover:bg-primary-50 transition-colors duration-200;
+  }
+
+  .card-border {
+    @apply border border-gold-200 bg-white/60 backdrop-blur-sm;
+  }
+}
+
+/* Arabic */
+.arabic {
+  font-family: "Scheherazade New", "Traditional Arabic", serif;
+  direction: rtl;
+  line-height: 2;
+}
