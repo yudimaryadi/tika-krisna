@@ -1,58 +1,52 @@
 "use client";
 
-import Image from "next/image";
 import AnimatedSection from "@/components/ui/AnimatedSection";
-import weddingData from "@/data/wedding.json";
 
 export default function Footer() {
   return (
-    <footer className="relative py-24 bg-petal/80 overflow-hidden">
-      {/* Background tint photo */}
-      <div className="absolute inset-0 opacity-10">
-        <Image
-          src={weddingData.gallery[22]}
-          alt=""
-          fill
-          className="object-cover"
-          aria-hidden
-        />
+    <footer className="relative overflow-hidden">
+      {/* "See you on our special day" — uses global video bg */}
+      <div className="relative min-h-[55vh] flex flex-col items-center justify-center">
+        <div className="absolute inset-0 bg-black/45" />
+
+        <div className="relative z-10 text-center px-8">
+          <AnimatedSection>
+            <p className="font-display italic text-2xl sm:text-3xl text-white mb-8">
+              See you on our special day
+            </p>
+          </AnimatedSection>
+
+          {/* TK Monogram */}
+          <AnimatedSection delay={0.2}>
+            <div
+              className="font-display italic text-white leading-none select-none mx-auto"
+              style={{
+                fontSize: "clamp(90px, 28vw, 160px)",
+                letterSpacing: "-0.06em",
+              }}
+            >
+              <span className="inline-block">K</span>
+              <span className="inline-block -ml-[0.1em]">T</span>
+            </div>
+          </AnimatedSection>
+        </div>
       </div>
 
-      <div className="relative max-w-xl mx-auto px-8 text-center">
+      {/* Footer info */}
+      <div className="relative bg-black/60 py-10 text-center px-6">
         <AnimatedSection>
-          <p className="arabic text-2xl text-gold-500 mb-6">
-            بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ
-          </p>
-        </AnimatedSection>
-
-        <AnimatedSection delay={0.15}>
-          <div className="divider mb-8" />
-          <p className="font-body text-sm text-gray-600 leading-relaxed">
-            {weddingData.quotes.closing}
-          </p>
-        </AnimatedSection>
-
-        <AnimatedSection delay={0.3} className="my-10">
-          <div className="flex items-center justify-center gap-3">
-            <div className="h-px w-12 bg-gold-300/60" />
-            <h2 className="font-script text-6xl text-primary-600">
-              {weddingData.couple.bride.nickname}
-            </h2>
-            <span className="font-display text-2xl text-gold-400">&</span>
-            <h2 className="font-script text-6xl text-primary-600">
-              {weddingData.couple.groom.nickname}
-            </h2>
-            <div className="h-px w-12 bg-gold-300/60" />
+          <div className="flex items-center justify-center gap-6 mb-5">
+            <a
+              href="https://yudimaryadi.github.io"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-body text-xs text-white/50 hover:text-white/80 transition-colors"
+            >
+              Made by iduyy
+            </a>
           </div>
-          <p className="font-display text-sm tracking-[0.2em] uppercase text-gray-500 mt-3">
-            19 Juni 2026
-          </p>
-        </AnimatedSection>
-
-        <AnimatedSection delay={0.45}>
-          <div className="divider mt-8" />
-          <p className="font-body text-[10px] tracking-widest uppercase text-gray-400 mt-6">
-            Made by iduyy dev ✦ {new Date().getFullYear()}
+          <p className="font-body text-[10px] text-white/30">
+            ©2026 All rights reserved.
           </p>
         </AnimatedSection>
       </div>

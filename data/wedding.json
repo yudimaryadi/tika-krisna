@@ -88,14 +88,12 @@
     "/foto/IMG_3340.jpg",
     "/foto/IMG_3346.jpg",
     "/foto/IMG_3352.jpg",
-    "/foto/IMG_3356.jpg",
     "/foto/IMG_3375.jpg",
     "/foto/IMG_3380.jpg",
     "/foto/IMG_3397.jpg",
     "/foto/IMG_3456.jpg",
     "/foto/IMG_3465.jpg",
     "/foto/IMG_3474.jpg",
-    "/foto/IMG_3491.jpg",
     "/foto/IMG_3514.jpg",
     "/foto/IMG_3518.jpg",
     "/foto/IMG_3522.jpg",
@@ -108,6 +106,7 @@
     "/foto/IMG_3652.jpg"
   ],
   "openingPhoto": "/foto/IMG_3522.jpg",
+  "liveStream": "https://www.instagram.com/tikamkw/",
   "video": "https://www.youtube.com/embed/u9dOdXOdmak",
   "videoPoster": "/foto/IMG_3605.jpg",
   "gifts": [

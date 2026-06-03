@@ -18,30 +18,16 @@ function calcTimeLeft(target: string) {
 
 function TimeBox({ value, label }: { value: number; label: string }) {
   return (
-    <div className="flex flex-col items-center">
-      <div className="relative w-[68px] h-[68px] sm:w-20 sm:h-20 md:w-24 md:h-24 bg-white/80 backdrop-blur border border-gold-200 shadow-sm flex items-center justify-center">
-        <div className="absolute top-0 left-0 w-2.5 h-2.5 border-t border-l border-gold-400" />
-        <div className="absolute top-0 right-0 w-2.5 h-2.5 border-t border-r border-gold-400" />
-        <div className="absolute bottom-0 left-0 w-2.5 h-2.5 border-b border-l border-gold-400" />
-        <div className="absolute bottom-0 right-0 w-2.5 h-2.5 border-b border-r border-gold-400" />
-        <span
-          suppressHydrationWarning
-          className="font-display text-3xl sm:text-4xl md:text-5xl text-primary-600 font-medium tabular-nums"
-        >
-          {String(value).padStart(2, "0")}
-        </span>
-      </div>
-      <p className="font-body text-[9px] sm:text-[10px] tracking-[0.2em] sm:tracking-[0.25em] uppercase text-gold-600 mt-1.5 sm:mt-2">
+    <div className="flex flex-col items-center gap-1.5">
+      <span
+        suppressHydrationWarning
+        className="font-display text-3xl sm:text-4xl text-white tabular-nums"
+      >
+        {String(value).padStart(2, "0")}
+      </span>
+      <p className="font-body text-[8px] sm:text-[9px] tracking-[0.25em] uppercase text-white/60">
         {label}
       </p>
-    </div>
-  );
-}
-
-function Separator() {
-  return (
-    <div className="font-display text-2xl sm:text-3xl text-gold-400 self-start mt-5 sm:mt-6 pb-6">
-      :
     </div>
   );
 }
@@ -53,10 +39,7 @@ export default function Countdown() {
   useEffect(() => {
     setMounted(true);
     setTimeLeft(calcTimeLeft(weddingData.weddingDate));
-    const id = setInterval(
-      () => setTimeLeft(calcTimeLeft(weddingData.weddingDate)),
-      1000
-    );
+    const id = setInterval(() => setTimeLeft(calcTimeLeft(weddingData.weddingDate)), 1000);
     return () => clearInterval(id);
   }, []);
 
@@ -67,50 +50,45 @@ export default function Countdown() {
   )}`;
 
   return (
-    <section className="py-16 sm:py-20 bg-cream/80 relative overflow-hidden">
-      <div
-        className="absolute inset-0 opacity-[0.03]"
-        style={{
-          backgroundImage: "radial-gradient(circle, #C9A454 1px, transparent 1px)",
-          backgroundSize: "32px 32px",
-        }}
-      />
+    <section className="relative min-h-screen flex items-center justify-center">
+      {/* Uses global video background — just add overlay for readability */}
+      <div className="absolute inset-0 bg-black/30" />
 
-      <div className="relative max-w-2xl mx-auto px-6 sm:px-8 text-center">
+      <div className="relative z-10 w-full max-w-sm mx-auto px-6 text-center">
         <AnimatedSection>
-          <span className="section-tag">Menuju Hari Bahagia</span>
-          <h2 className="section-title">Save The Date</h2>
-          <div className="divider" />
-          <p className="font-display text-sm sm:text-base text-gray-500 mt-3 sm:mt-4 tracking-wide">
-            Jumat, 19 Juni 2026 · Jereweh, Sumbawa Barat
-          </p>
-        </AnimatedSection>
-
-        <AnimatedSection delay={0.2} className="mt-10 sm:mt-12">
-          <div
-            className={`flex justify-center gap-2 sm:gap-4 md:gap-6 transition-opacity duration-300 ${
-              mounted ? "opacity-100" : "opacity-0"
-            }`}
-          >
-            <TimeBox value={timeLeft.days} label="Hari" />
-            <Separator />
-            <TimeBox value={timeLeft.hours} label="Jam" />
-            <Separator />
-            <TimeBox value={timeLeft.minutes} label="Menit" />
-            <Separator />
-            <TimeBox value={timeLeft.seconds} label="Detik" />
+          <div className="mb-8">
+            <p className="font-script text-4xl sm:text-5xl text-white leading-tight">Countdown</p>
+            <p className="font-display italic text-2xl sm:text-3xl text-white/80 -mt-1">Timer</p>
           </div>
         </AnimatedSection>
 
-        <AnimatedSection delay={0.4} className="mt-8 sm:mt-10">
+        <AnimatedSection delay={0.2}>
+          <div
+            className={`border border-white/50 px-6 py-8 transition-opacity duration-300 ${
+              mounted ? "opacity-100" : "opacity-0"
+            }`}
+          >
+            <div className="flex justify-center items-center gap-4 sm:gap-6">
+              <TimeBox value={timeLeft.days} label="Days" />
+              <span className="font-display text-2xl text-white/40 self-start mt-1">:</span>
+              <TimeBox value={timeLeft.hours} label="Hours" />
+              <span className="font-display text-2xl text-white/40 self-start mt-1">:</span>
+              <TimeBox value={timeLeft.minutes} label="Minutes" />
+              <span className="font-display text-2xl text-white/40 self-start mt-1">:</span>
+              <TimeBox value={timeLeft.seconds} label="Seconds" />
+            </div>
+          </div>
+        </AnimatedSection>
+
+        <AnimatedSection delay={0.4} className="mt-7">
           <a
             href={calendarUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="btn-outline"
           >
-            <CalendarPlus size={14} />
-            Simpan ke Kalender
+            <CalendarPlus size={13} />
+            Save The Date
           </a>
         </AnimatedSection>
       </div>

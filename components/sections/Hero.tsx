@@ -1,41 +1,25 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Image from "next/image";
 import weddingData from "@/data/wedding.json";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-end justify-center overflow-hidden">
-      <div className="absolute inset-0">
-        <Image
-          src={weddingData.gallery[11]}
-          alt="Hero"
-          fill
-          className="object-cover object-top"
-          priority
-          sizes="100vw"
-          quality={85}
-        />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-cream" />
-      </div>
+    <section className="relative min-h-screen flex items-end overflow-hidden">
+      {/* Global video background dari page.tsx — tidak perlu foto lokal */}
+      <div className="absolute inset-0 bg-gradient-to-b from-black/10 via-transparent to-black/60" />
 
-      <div className="relative z-10 text-center pb-16 sm:pb-20 px-6 max-w-2xl mx-auto w-full">
-        <motion.p
-          initial={{ opacity: 0, y: 16 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.2, duration: 0.6 }}
-          className="font-body text-[9px] sm:text-[10px] tracking-[0.45em] uppercase text-gold-400 mb-4 sm:mb-5"
-        >
-          The Wedding of
-        </motion.p>
-
+      {/* Couple names — bottom left */}
+      <div className="relative z-10 px-8 pb-16 sm:pb-20 w-full">
         <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.4, duration: 0.8 }}
+          initial={{ opacity: 0, x: -50 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ delay: 0.3, duration: 1, ease: [0.25, 0.46, 0.45, 0.94] }}
         >
-          <h1 className="font-script text-[64px] sm:text-8xl md:text-[110px] leading-none text-white drop-shadow-lg">
+          <h1
+            className="font-display italic font-semibold text-white leading-[0.9]"
+            style={{ fontSize: "clamp(72px, 20vw, 130px)" }}
+          >
             {weddingData.couple.bride.nickname}
           </h1>
         </motion.div>
@@ -43,20 +27,23 @@ export default function Hero() {
         <motion.div
           initial={{ opacity: 0, scaleX: 0 }}
           animate={{ opacity: 1, scaleX: 1 }}
-          transition={{ delay: 0.8, duration: 0.5 }}
-          className="flex items-center justify-center gap-3 sm:gap-4 my-2 sm:my-3"
+          transition={{ delay: 0.7, duration: 0.5 }}
+          className="flex items-center gap-3 my-3 origin-left"
         >
-          <div className="h-px w-10 sm:w-12 bg-gold-400/60" />
-          <span className="font-display text-xl sm:text-2xl text-gold-300">&</span>
-          <div className="h-px w-10 sm:w-12 bg-gold-400/60" />
+          <div className="w-16 h-px bg-white/40" />
+          <span className="font-script text-2xl text-white/80">&</span>
+          <div className="w-8 h-px bg-white/40" />
         </motion.div>
 
         <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 1.0, duration: 0.8 }}
+          initial={{ opacity: 0, x: -50 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ delay: 0.5, duration: 1, ease: [0.25, 0.46, 0.45, 0.94] }}
         >
-          <h1 className="font-script text-[64px] sm:text-8xl md:text-[110px] leading-none text-white drop-shadow-lg">
+          <h1
+            className="font-display italic font-semibold text-white leading-[0.9]"
+            style={{ fontSize: "clamp(72px, 20vw, 130px)" }}
+          >
             {weddingData.couple.groom.nickname}
           </h1>
         </motion.div>
@@ -64,31 +51,29 @@ export default function Hero() {
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ delay: 1.4, duration: 0.6 }}
-          className="mt-5 sm:mt-6 space-y-1"
+          transition={{ delay: 1, duration: 0.8 }}
+          className="flex items-center gap-4 mt-6"
         >
-          <p className="font-display text-base sm:text-lg tracking-[0.15em] uppercase text-black/90">
-            Jumat, 19 Juni 2026
-          </p>
-          <p className="font-body text-xs sm:text-sm text-black/60 tracking-wider">
-            Jereweh, Sumbawa Barat
+          <div className="flex-1 h-px bg-white/20" />
+          <p className="font-body text-[11px] tracking-[0.3em] text-white/60 whitespace-nowrap">
+            19/06/26
           </p>
         </motion.div>
-
       </div>
 
+      {/* Scroll indicator */}
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 2 }}
-        className="absolute bottom-6 sm:bottom-8 left-1/2 -translate-x-1/2 z-10"
+        className="absolute bottom-6 left-1/2 -translate-x-1/2 z-10"
       >
         <motion.div
           animate={{ y: [0, 8, 0] }}
-          transition={{ repeat: Infinity, duration: 1.5, ease: "easeInOut" }}
-          className="w-5 h-8 border border-white/40 rounded-full flex justify-center pt-1.5 mx-auto"
+          transition={{ repeat: Infinity, duration: 1.6, ease: "easeInOut" }}
+          className="w-5 h-8 border border-white/30 rounded-full flex justify-center pt-1.5"
         >
-          <div className="w-0.5 h-2 bg-white/60 rounded-full" />
+          <div className="w-0.5 h-2 bg-white/50 rounded-full" />
         </motion.div>
       </motion.div>
     </section>
