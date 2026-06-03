@@ -53,18 +53,6 @@
   }
 }
 
-/* YouTube background iframe sizing */
-.yt-bg-wrap iframe {
-  position: absolute !important;
-  top: 50% !important;
-  left: 50% !important;
-  width: max(100vw, 177.78vh) !important;
-  height: max(100vh, 56.25vw) !important;
-  transform: translate(-50%, -50%) !important;
-  pointer-events: none !important;
-  border: 0 !important;
-}
-
 /* Arabic */
 .arabic {
   font-family: "Scheherazade New", "Traditional Arabic", serif;

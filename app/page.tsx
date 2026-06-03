@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Opening from "@/components/Opening";
 import GuestProvider from "@/components/GuestProvider";
 import LoadingScreen from "@/components/LoadingScreen";
@@ -25,12 +25,18 @@ export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
   const [playMusic, setPlayMusic] = useState(false);
 
+  useEffect(() => {
+    // Hard fallback: loading screen maksimal 10 detik, apapun yang terjadi
+    const t = setTimeout(() => setVideoReady(true), 10000);
+    return () => clearTimeout(t);
+  }, []);
+
   return (
     <GuestProvider>
-      {/* Loading screen — tampil sampai video siap */}
+      {/* Loading screen */}
       <LoadingScreen show={!videoReady} />
 
-      {/* Fixed video background — YouTube (desktop) atau local (iOS Safari) */}
+      {/* Fixed video background */}
       <div
         className={`fixed inset-0 z-0 transition-opacity duration-1000 ${
           videoReady ? "opacity-100" : "opacity-0"
@@ -40,7 +46,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-black/40" />
       </div>
 
-      {/* Opening — hanya tampil setelah video siap */}
+      {/* Opening — muncul setelah video ready */}
       {videoReady && (
         <Opening
           isOpen={isOpen}
