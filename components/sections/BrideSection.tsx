@@ -61,7 +61,7 @@ export default function BrideSection() {
               fill
               className="object-cover object-top"
               sizes="100vw"
-              priority={current === 0}
+              priority
             />
             <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-black/75" />
           </motion.div>
@@ -69,7 +69,7 @@ export default function BrideSection() {
 
         {/* THE BRIDE — pojok kiri atas */}
         <div className="absolute top-5 left-5 z-10 leading-none">
-          <p className="font-body text-[9px] tracking-[0.5em] uppercase text-white/70">THE</p>
+          <p className="font-body text-[10px] tracking-[0.5em] uppercase text-white/70">THE</p>
           <p
             className="font-display italic font-bold text-white/90 leading-none -mt-0.5"
             style={{ fontSize: "clamp(36px, 12vw, 64px)" }}

@@ -61,6 +61,7 @@ export default function GroomSection() {
               fill
               className="object-cover object-top"
               sizes="100vw"
+              priority
             />
             <div className="absolute inset-0 bg-gradient-to-b from-black/10 via-transparent to-black/75" />
           </motion.div>
