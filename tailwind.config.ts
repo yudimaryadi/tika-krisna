@@ -40,6 +40,7 @@ const config: Config = {
         display: ["var(--font-display)"],
         script: ["var(--font-script)"],
         body: ["var(--font-body)"],
+        georgia: ["Georgia", "serif"],
       },
       animation: {
         float: "float 6s ease-in-out infinite",

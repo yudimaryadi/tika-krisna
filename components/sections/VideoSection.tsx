@@ -25,7 +25,7 @@ export default function VideoSection() {
             </p>
             <div className="w-8 h-px bg-white/30 mx-auto my-4" />
             <p className="font-body text-xs tracking-[0.2em] uppercase text-white/70 mb-6">
-              Jumat, 19 Juni 2026
+              Sabtu, 25 Juli 2026
             </p>
             <a
               href={weddingData.liveStream ?? "#"}
@@ -51,7 +51,7 @@ export default function VideoSection() {
             <div className="aspect-video">
               <iframe
                 src={`${weddingData.video}?rel=0&modestbranding=1`}
-                title="Video Tika & Krisna"
+                title="Video Krisna & Tika"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
                 loading="lazy"

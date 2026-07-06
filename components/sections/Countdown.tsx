@@ -44,8 +44,8 @@ export default function Countdown() {
   }, []);
 
   const calendarUrl = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(
-    "Pernikahan Tika & Krisna"
-  )}&dates=20260619T000000Z/20260620T000000Z&location=${encodeURIComponent(
+    "The Wedding of Krisna & Tika"
+  )}&dates=20260725T000000Z/20260726T000000Z&location=${encodeURIComponent(
     weddingData.events[1].address
   )}`;
 

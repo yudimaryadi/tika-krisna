@@ -36,10 +36,10 @@ export default function Gallery() {
         </p>
       </AnimatedSection>
 
-      {/* Top row: 3-column */}
-      <div className="relative z-10 grid grid-cols-3 gap-0.5 px-0.5 mb-0.5">
-        {weddingData.gallery.slice(0, 3).map((src, i) => (
-          <AnimatedSection key={src} delay={i * 0.05}>
+      {/* Uniform 3-column grid — every tile is the same size, so rows always fill completely with no gaps */}
+      <div className="relative z-10 grid grid-cols-3 gap-0.5 px-0.5">
+        {weddingData.gallery.map((src, i) => (
+          <AnimatedSection key={src} delay={Math.min(i * 0.03, 0.3)}>
             <button
               onClick={() => setIndex(i)}
               className="relative w-full aspect-square overflow-hidden group block"
@@ -51,44 +51,12 @@ export default function Gallery() {
                 className="object-cover transition-transform duration-500 group-hover:scale-110"
                 sizes="33vw"
                 quality={80}
+                loading={i < 3 ? undefined : "lazy"}
               />
               <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors duration-300" />
             </button>
           </AnimatedSection>
         ))}
-      </div>
-
-      {/* Main grid: 2-column */}
-      <div className="relative z-10 grid grid-cols-2 gap-0.5 px-0.5">
-        {weddingData.gallery.slice(3).map((src, i) => {
-          const actualIndex = i + 3;
-          const isFull = i === 1 || i === 6 || i === 11;
-          return (
-            <AnimatedSection
-              key={src}
-              delay={Math.min(i * 0.03, 0.2)}
-              className={isFull ? "col-span-2" : ""}
-            >
-              <button
-                onClick={() => setIndex(actualIndex)}
-                className={`relative w-full overflow-hidden group block ${
-                  isFull ? "aspect-[16/9]" : "aspect-square"
-                }`}
-              >
-                <Image
-                  src={src}
-                  alt={`Foto ${actualIndex + 1}`}
-                  fill
-                  className="object-cover transition-transform duration-500 group-hover:scale-110"
-                  sizes={isFull ? "100vw" : "50vw"}
-                  quality={80}
-                  loading="lazy"
-                />
-                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/25 transition-colors duration-300" />
-              </button>
-            </AnimatedSection>
-          );
-        })}
       </div>
 
       <Lightbox

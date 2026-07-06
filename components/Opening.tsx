@@ -51,13 +51,13 @@ export default function Opening({ isOpen, onOpen, onMusicStart }: Props) {
               className="font-display italic leading-none text-white/[0.05] uppercase"
               style={{ fontSize: "clamp(80px, 28vw, 180px)", letterSpacing: "0.1em" }}
             >
-              {weddingData.couple.bride.nickname}
+              {weddingData.couple.groom.nickname}
             </span>
             <span
               className="font-display italic leading-none text-white/[0.05] uppercase"
               style={{ fontSize: "clamp(80px, 28vw, 180px)", letterSpacing: "0.1em" }}
             >
-              {weddingData.couple.groom.nickname}
+              {weddingData.couple.bride.nickname}
             </span>
           </div>
 
@@ -78,7 +78,7 @@ export default function Opening({ isOpen, onOpen, onMusicStart }: Props) {
               transition={{ delay: 0.5, duration: 0.8 }}
               className="font-display italic text-[44px] sm:text-[54px] leading-tight text-white"
             >
-              {weddingData.couple.bride.nickname} &amp; {weddingData.couple.groom.nickname}
+              {weddingData.couple.groom.nickname} &amp; {weddingData.couple.bride.nickname}
             </motion.h1>
 
             <motion.p
@@ -87,7 +87,7 @@ export default function Opening({ isOpen, onOpen, onMusicStart }: Props) {
               transition={{ delay: 0.85, duration: 0.6 }}
               className="font-body text-[10px] tracking-[0.28em] text-white/60 mt-3"
             >
-              Jumat, 19 Juni 2026
+              Sabtu, 25 Juli 2026
             </motion.p>
 
             {guest && (
@@ -95,7 +95,7 @@ export default function Opening({ isOpen, onOpen, onMusicStart }: Props) {
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 1.1, duration: 0.5 }}
-                className="mt-6 mb-2 text-center"
+                className="mt-20 mb-2 text-center"
               >
                 <p className="font-body text-[9px] tracking-[0.4em] uppercase text-white/40 mb-1">
                   Dear,

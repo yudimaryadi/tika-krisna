@@ -10,14 +10,14 @@ export default function Greeting() {
 
       <div className="relative z-10 max-w-md mx-auto px-8 text-center">
         <AnimatedSection>
-          <p className="font-display italic text-xl sm:text-2xl text-white mb-5">
+          <p className="font-script text-3xl sm:text-4xl text-white mb-5">
             Assalamualaikum Wr. Wb.
           </p>
           <div className="w-10 h-px bg-white/30 mx-auto mb-6" />
         </AnimatedSection>
 
         <AnimatedSection delay={0.2}>
-          <p className="font-body text-sm text-white/80 leading-relaxed">
+          <p className="font-georgia text-sm text-white/80 leading-relaxed">
             Dengan memohon rahmat dan ridho Allah Subhanahu Wa Ta&apos;ala,
             Kami mengundang Bapak/Ibu/Saudara/i untuk menghadiri
             Resepsi Pernikahan kami.

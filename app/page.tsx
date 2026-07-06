@@ -64,8 +64,8 @@ export default function Home() {
         <Hero />
         <Monogram />
         <Greeting />
-        <BrideSection />
         <GroomSection />
+        <BrideSection />
         <Countdown />
         <Events />
         <VideoSection />

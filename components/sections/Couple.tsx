@@ -66,8 +66,8 @@ export default function Couple() {
 
         <div className="grid md:grid-cols-[1fr_auto_1fr] gap-8 md:gap-12 items-center">
           <PersonCard
-            person={weddingData.couple.bride}
-            role="Mempelai Wanita"
+            person={weddingData.couple.groom}
+            role="Mempelai Pria"
             direction="left"
           />
 
@@ -81,8 +81,8 @@ export default function Couple() {
           </AnimatedSection>
 
           <PersonCard
-            person={weddingData.couple.groom}
-            role="Mempelai Pria"
+            person={weddingData.couple.bride}
+            role="Mempelai Wanita"
             direction="right"
           />
         </div>

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Cormorant_Garamond, Great_Vibes, Jost } from "next/font/google";
+import { Cormorant_Garamond, Alex_Brush, Poppins } from "next/font/google";
 import "./globals.css";
 import weddingData from "@/data/wedding.json";
 
@@ -10,14 +10,14 @@ const cormorant = Cormorant_Garamond({
   display: "swap",
 });
 
-const greatVibes = Great_Vibes({
+const alexBrush = Alex_Brush({
   subsets: ["latin"],
   weight: ["400"],
   variable: "--font-script",
   display: "swap",
 });
 
-const jost = Jost({
+const poppins = Poppins({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600"],
   variable: "--font-body",
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: weddingData.meta.title,
     description: weddingData.meta.description,
-    images: [weddingData.couple.bride.photo],
+    images: [weddingData.openingPhoto],
   },
 };
 
@@ -42,7 +42,7 @@ export default function RootLayout({
   return (
     <html lang="id">
       <body
-        className={`${cormorant.variable} ${greatVibes.variable} ${jost.variable} font-body`}
+        className={`${cormorant.variable} ${alexBrush.variable} ${poppins.variable} font-body`}
       >
         {children}
       </body>

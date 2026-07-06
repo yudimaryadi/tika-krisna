@@ -20,7 +20,7 @@ export default function Hero() {
             className="font-display italic font-semibold text-white leading-[0.9]"
             style={{ fontSize: "clamp(72px, 20vw, 130px)" }}
           >
-            {weddingData.couple.bride.nickname}
+            {weddingData.couple.groom.nickname}
           </h1>
         </motion.div>
 
@@ -44,7 +44,7 @@ export default function Hero() {
             className="font-display italic font-semibold text-white leading-[0.9]"
             style={{ fontSize: "clamp(72px, 20vw, 130px)" }}
           >
-            {weddingData.couple.groom.nickname}
+            {weddingData.couple.bride.nickname}
           </h1>
         </motion.div>
 
@@ -56,7 +56,7 @@ export default function Hero() {
         >
           <div className="flex-1 h-px bg-white/20" />
           <p className="font-body text-[11px] tracking-[0.3em] text-white/60 whitespace-nowrap">
-            19/06/26
+            25/07/26
           </p>
         </motion.div>
       </div>

@@ -1,6 +1,7 @@
 "use client";
 
 import { motion, AnimatePresence } from "framer-motion";
+import weddingData from "@/data/wedding.json";
 
 interface Props {
   show: boolean;
@@ -23,7 +24,7 @@ export default function LoadingScreen({ show }: Props) {
             className="text-center"
           >
             <h1 className="font-script text-[56px] sm:text-[72px] text-white leading-none">
-              Tika
+              {weddingData.couple.groom.nickname}
             </h1>
 
             <div className="flex items-center justify-center gap-3 my-2">
@@ -33,7 +34,7 @@ export default function LoadingScreen({ show }: Props) {
             </div>
 
             <h1 className="font-script text-[56px] sm:text-[72px] text-white leading-none">
-              Krisna
+              {weddingData.couple.bride.nickname}
             </h1>
           </motion.div>
 

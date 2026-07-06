@@ -61,29 +61,29 @@ export default function Gift() {
               className="mt-8 space-y-3 text-left"
             >
               {weddingData.gifts.map((gift, i) => {
-                const number = "accountNumber" in gift ? gift.accountNumber : gift.number;
-                const label = gift.type === "bank"
-                  ? `Bank ${"bank" in gift ? gift.bank : ""}`
-                  : "name" in gift ? gift.name : "";
+                const number = gift.accountNumber;
+                const label = `Bank ${gift.bank}`;
                 return (
                   <div key={i} className="bg-white/10 border border-white/20 px-5 py-4 backdrop-blur-sm">
-                    <p className="font-body text-[9px] tracking-[0.35em] uppercase text-white/50 mb-1">{label}</p>
+                    <p className="font-body text-[10px] tracking-[0.35em] uppercase text-white/50 mb-1">{label}</p>
                     <div className="flex items-center gap-1">
-                      <p className="font-display text-lg text-white flex-1">{number}</p>
+                      <p className="font-display text-xl text-white flex-1">{number}</p>
                       {number && <CopyBtn text={number} />}
                     </div>
-                    <p className="font-body text-xs text-white/50 mt-1">a.n. {gift.accountName}</p>
+                    <p className="font-body text-sm text-white/50 mt-1">a.n. {gift.accountName}</p>
                   </div>
                 );
               })}
 
               <div className="bg-white/10 border border-white/20 px-5 py-4 backdrop-blur-sm">
-                <p className="font-body text-[9px] tracking-[0.35em] uppercase text-white/50 mb-2">
+                <p className="font-body text-[10px] tracking-[0.35em] uppercase text-white/50 mb-2">
                   Kirim ke Alamat
                 </p>
-                <p className="font-body text-sm text-white font-medium">{weddingData.address.label}</p>
-                <p className="font-body text-xs text-white/60 mt-1 leading-relaxed">{weddingData.address.detail}</p>
-                <p className="font-body text-xs text-white/70 mt-2">{weddingData.address.contact}</p>
+                <p className="font-body text-base text-white font-medium">{weddingData.address.label}</p>
+                <p className="font-body text-sm text-white/60 mt-1 leading-relaxed">{weddingData.address.detail}</p>
+                {weddingData.address.contact && (
+                  <p className="font-body text-sm text-white/70 mt-2">{weddingData.address.contact}</p>
+                )}
               </div>
             </motion.div>
           )}

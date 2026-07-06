@@ -1,5 +1,6 @@
 "use client";
 
+import { Heart } from "lucide-react";
 import AnimatedSection from "@/components/ui/AnimatedSection";
 import weddingData from "@/data/wedding.json";
 
@@ -30,8 +31,9 @@ export default function Monogram() {
             <p className="font-display italic text-base sm:text-lg text-white/90 leading-relaxed">
               &ldquo;{weddingData.quotes.quranTranslation}&rdquo;
             </p>
-            <cite className="font-body text-[10px] tracking-[0.35em] uppercase text-white/50 not-italic mt-4 block">
+            <cite className="flex items-center justify-center gap-1.5 font-body text-[10px] tracking-[0.35em] uppercase text-white/50 not-italic mt-4">
               {weddingData.quotes.quranSource}
+              <Heart size={10} className="text-white fill-white" />
             </cite>
           </blockquote>
         </AnimatedSection>

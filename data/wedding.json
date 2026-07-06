@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Pernikahan Tika & Krisna — 19 Juni 2026",
+    "title": "The Wedding of Krisna & Tika – 25 July 2026",
     "description": "Dengan penuh kebahagiaan, kami mengundang Anda untuk merayakan hari pernikahan kami.",
     "url": "https://kartika-krisna.vercel.app",
     "favicon": "/favicon.ico"
@@ -12,96 +12,66 @@
       "photo": "/foto/tika.jpg",
       "instagram": "@tikamkw",
       "parents": {
-        "father": "Bapak I Wayan Sudarsana",
-        "mother": "Ibu Ni Nyoman Sari Dewi"
+        "father": "Bapak Jabaruddin",
+        "mother": "Ibu Murniati"
       }
     },
     "groom": {
-      "fullName": "I Gede Krisna",
+      "fullName": "I Gede Krisna Mahardita",
       "nickname": "Krisna",
       "photo": "/foto/krisna.jpg",
-      "instagram": "@krisna_mahardita",
+      "instagram": "@krisna_dita",
       "parents": {
-        "father": "Bapak I Made Suardana",
-        "mother": "Ibu Ni Ketut Mariasih"
+        "father": "Bapak I Ketut Mudita",
+        "mother": "Ibu Komang Armayasih, A.Md.Keb"
       }
     }
   },
-  "weddingDate": "2026-06-19T08:00:00+08:00",
+  "weddingDate": "2026-07-25T07:00:00+08:00",
   "events": [
     {
       "id": "akad",
       "label": "Ceremony",
       "name": "Akad Nikah",
-      "date": "Jumat, 19 Juni 2026",
-      "time": "08.00 — 10.00 WITA",
-      "venue": "Masjid Al-Ikhlas Jereweh",
-      "address": "Jl. Raya Jereweh, Kec. Jereweh, Sumbawa Barat, NTB",
-      "mapsUrl": "https://maps.google.com/?q=Jereweh,Sumbawa+Barat,NTB"
+      "date": "Sabtu, 25 Juli 2026",
+      "time": "07.00 WITA",
+      "venue": "Gedung Serbaguna \"Sasai Ate\"",
+      "address": "Desa Beru, Kec. Jereweh, Kab. Sumbawa Barat (KSB)",
+      "mapsUrl": "https://maps.google.com/?q=Gedung+Serbaguna+Sasai+Ate,Desa+Beru,Jereweh,Sumbawa+Barat"
     },
     {
       "id": "resepsi",
       "label": "Reception",
       "name": "Resepsi Pernikahan",
-      "date": "Jumat, 19 Juni 2026",
-      "time": "11.00 — 14.00 WITA",
-      "venue": "Gedung Serbaguna Jereweh",
-      "address": "Jl. Raya Jereweh, Kec. Jereweh, Sumbawa Barat, NTB",
-      "mapsUrl": "https://maps.google.com/?q=Jereweh,Sumbawa+Barat,NTB"
+      "date": "Sabtu, 25 Juli 2026",
+      "time": "09.00 WITA",
+      "venue": "Gedung Serbaguna \"Sasai Ate\"",
+      "address": "Desa Beru, Kec. Jereweh, Kab. Sumbawa Barat (KSB)",
+      "mapsUrl": "https://maps.google.com/?q=Gedung+Serbaguna+Sasai+Ate,Desa+Beru,Jereweh,Sumbawa+Barat"
     }
   ],
   "loveStory": [
-    {
-      "year": "2022",
-      "month": "Januari",
-      "title": "Awal Pertemuan",
-      "description": "Takdir mempertemukan kami dalam sebuah kesempatan yang tak terduga. Sebuah senyum pertama yang akan selalu dikenang.",
-      "photo": "/foto/IMG_3265.jpg"
-    },
-    {
-      "year": "2023",
-      "month": "Maret",
-      "title": "Semakin Dekat",
-      "description": "Setiap percakapan membawa kami semakin dekat satu sama lain. Kami menemukan kesamaan dan kehangatan dalam setiap langkah yang kami jalani bersama.",
-      "photo": "/foto/IMG_3330.jpg"
-    },
-    {
-      "year": "2024",
-      "month": "Juni",
-      "title": "Berjanji Selamanya",
-      "description": "Di hari yang penuh makna, kami saling berjanji untuk menjalani hidup bersama dalam suka dan duka, hingga akhir hayat.",
-      "photo": "/foto/IMG_3474.jpg"
-    },
-    {
-      "year": "2026",
-      "month": "Juni",
-      "title": "Menuju Pelaminan",
-      "description": "Dengan restu kedua orang tua dan doa seluruh keluarga, kami melangkah bersama menuju jenjang pernikahan yang suci dan penuh berkah.",
-      "photo": "/foto/IMG_3605.jpg"
-    }
+    "Pertemuan sederhana di tahun 2017 itu di satu kampus, satu jurusan, satu kelas menjadi awal dari perjalanan panjang kami. Berawal dari hal kecil dan kebersamaan yang tak direncanakan, bahkan dari sekadar bermain Mobile Legend bersama. Dari sana, kami mulai saling mengenal, saling memahami, dan tanpa kami sadari saling menemukan.",
+    "Hingga pada 06 Februari 2018, kami memilih untuk melangkah lebih jauh. Bukan hanya sebagai dua orang yang saling suka, tapi sebagai dua hati yang ingin saling menjaga.",
+    "Perjalanan kami tidak selalu mudah. Kami pernah berdiri di dua perbedaan. Namun cinta ini tidak mengajarkan kami untuk menyerah, justru mengajarkan kami tentang arti perjuangan, kesabaran, dan keikhlasan. Karena bagi kami, cinta bukan hanya tentang bersama saat mudah, tetapi tetap memilih satu sama lain, bahkan saat dunia terasa tidak berpihak.",
+    "Dan pada akhirnya, dengan keyakinan dan niat yang tulus, kami dipertemukan dalam satu tujuan yang sama. Bukan sekadar menyatukan dua hati, tetapi juga menyatukan langkah, doa, dan masa depan.",
+    "Dari sebuah pertemuan sederhana, hingga keputusan besar untuk hidup bersama. Kini, kami percaya… ini bukan lagi tentang bagaimana kami dipertemukan, tetapi tentang bagaimana kami menjaga apa yang telah Tuhan satukan."
   ],
+  "loveStoryClosing": "Selamanya, dengan cinta yang kami perjuangkan bersama.",
   "gallery": [
     "/foto/IMG_3265.jpg",
-    "/foto/IMG_3303.jpg",
-    "/foto/IMG_3319.jpg",
-    "/foto/IMG_3330.jpg",
     "/foto/IMG_3340.jpg",
-    "/foto/IMG_3346.jpg",
-    "/foto/IMG_3352.jpg",
     "/foto/IMG_3375.jpg",
     "/foto/IMG_3380.jpg",
     "/foto/IMG_3397.jpg",
-    "/foto/IMG_3456.jpg",
     "/foto/IMG_3465.jpg",
     "/foto/IMG_3474.jpg",
     "/foto/IMG_3514.jpg",
-    "/foto/IMG_3518.jpg",
     "/foto/IMG_3522.jpg",
     "/foto/IMG_3535.jpg",
     "/foto/IMG_3554.jpg",
     "/foto/IMG_3557.jpg",
     "/foto/IMG_3605.jpg",
-    "/foto/IMG_3608.jpg",
     "/foto/IMG_3640.jpg",
     "/foto/IMG_3652.jpg"
   ],
@@ -112,33 +82,33 @@
   "gifts": [
     {
       "type": "bank",
-      "bank": "BCA",
-      "accountNumber": "1234567890",
+      "bank": "BNI",
+      "accountNumber": "861032421",
       "accountName": "Murni Kartika Wulandari"
     },
     {
       "type": "bank",
-      "bank": "BCA",
-      "accountNumber": "0987654321",
-      "accountName": "I Gede Krisna"
+      "bank": "BRI",
+      "accountNumber": "476601010880507",
+      "accountName": "Murni Kartika Wulandari"
     },
     {
-      "type": "ewallet",
-      "name": "DANA",
-      "number": "0812-3456-7890",
-      "accountName": "Murni Kartika Wulandari"
+      "type": "bank",
+      "bank": "Mandiri",
+      "accountNumber": "1610010949191",
+      "accountName": "I Gede Krisna Mahardita"
     }
   ],
   "address": {
     "label": "Rumah Mempelai Wanita",
-    "detail": "Jl. Melati No. 12, Kel. Jereweh, Kec. Jereweh, Sumbawa Barat, NTB 84354",
-    "contact": "+62 812-3456-7890"
+    "detail": "Jln. Pendidikan No.1, RT.08/RW.04, Samping SMP 1 Jereweh (Container Kuning), Desa Beru, Kec. Jereweh, Kab. Sumbawa Barat, NTB",
+    "contact": ""
   },
   "quotes": {
     "quran": "وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَاجًا لِّتَسْكُنُوا إِلَيْهَا",
     "quranLatin": "Wa min āyātihī an khalaqa lakum min anfusikum azwājan litaskunū ilayhā",
-    "quranTranslation": "Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu pasangan-pasangan dari jenismu sendiri, supaya kamu cenderung dan merasa tenteram kepadanya.",
-    "quranSource": "— QS. Ar-Rum: 21",
+    "quranTranslation": "Dari dua jalan yang berbeda, kami dipertemukan untuk satu tujuan. Badai pernah datang, air mata pernah jatuh, namun cinta memilih bertahan. Hari ini bukan akhir perjalanan, melainkan awal kami berjalan bersama.",
+    "quranSource": "Love Bee",
     "closing": "Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan doa restu kepada kami."
   }
 }

@@ -81,7 +81,7 @@ export default function BrideSection() {
         {/* Info — bottom left */}
         <div className="absolute bottom-0 left-0 right-0 z-10 px-6 pb-10">
           <AnimatedSection direction="up">
-            <h2 className="font-display italic text-2xl sm:text-3xl text-white mb-1">
+            <h2 className="font-display italic text-3xl sm:text-4xl text-white mb-1">
               {bride.fullName}
             </h2>
             <p className="font-body text-xs text-white/60 mb-0.5">Putri dari</p>

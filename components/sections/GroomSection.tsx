@@ -9,7 +9,7 @@ import weddingData from "@/data/wedding.json";
 
 const GROOM_PHOTOS = [
   "/foto/krisna.jpg",
-  "/foto/IMG_3456.jpg",
+  "/foto/IMG_3356.jpg",
   "/foto/IMG_3640.jpg",
 ];
 
@@ -79,7 +79,7 @@ export default function GroomSection() {
           </div>
 
           <AnimatedSection direction="up">
-            <h2 className="font-display italic text-2xl sm:text-3xl text-white mb-1">
+            <h2 className="font-display italic text-3xl sm:text-4xl text-white mb-1">
               {groom.fullName}
             </h2>
             <p className="font-body text-xs text-white/60 mb-0.5">Putra dari</p>
