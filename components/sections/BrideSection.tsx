@@ -67,11 +67,11 @@ export default function BrideSection() {
           </motion.div>
         </AnimatePresence>
 
-        {/* THE BRIDE — pojok kiri atas */}
-        <div className="absolute top-5 left-5 z-10 leading-none">
-          <p className="font-body text-[10px] tracking-[0.5em] uppercase text-white/70">THE</p>
+        {/* THE BRIDE — pojok kanan bawah, di tepian foto, ghost/transparent, di belakang info */}
+        <div className="absolute bottom-5 right-5 z-0 leading-none text-right pointer-events-none">
+          <p className="font-body text-[9.5px] tracking-[0.5em] uppercase text-white/50">THE</p>
           <p
-            className="font-display italic font-bold text-white/90 leading-none -mt-0.5"
+            className="font-display font-bold text-white/25 leading-none -mt-0.5"
             style={{ fontSize: "clamp(36px, 12vw, 64px)" }}
           >
             BRIDE
@@ -81,7 +81,7 @@ export default function BrideSection() {
         {/* Info — bottom left */}
         <div className="absolute bottom-0 left-0 right-0 z-10 px-6 pb-10">
           <AnimatedSection direction="up">
-            <h2 className="font-display italic text-3xl sm:text-4xl text-white mb-1">
+            <h2 className="font-display italic text-[27px] sm:text-[33px] text-white mb-1">
               {bride.fullName}
             </h2>
             <p className="font-body text-xs text-white/60 mb-0.5">Putri dari</p>

@@ -41,6 +41,7 @@ const config: Config = {
         script: ["var(--font-script)"],
         body: ["var(--font-body)"],
         georgia: ["Georgia", "serif"],
+        "times-new-roman": ["Times New Roman", "Times", "serif"],
       },
       animation: {
         float: "float 6s ease-in-out infinite",

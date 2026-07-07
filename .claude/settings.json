@@ -19,7 +19,9 @@
       "Bash(grep -o 'Krisna</h1>.\\\\{0,10\\\\}\\\\|Tika</h1>' \"C:\\\\Users\\\\Yudi Maryadi\\\\.claude\\\\projects\\\\e--FILE-ORANG-Kartika-Krisna\\\\bbe80898-c9ed-41da-b290-f342bf6f66fe\\\\tool-results\\\\bcpdb94sy.txt\")",
       "Bash(grep -o '.\\\\{0,60\\\\}\\\\\\(Krisna\\\\|Tika\\\\\\)</h1>.\\\\{0,20\\\\}' \"C:\\\\Users\\\\Yudi Maryadi\\\\.claude\\\\projects\\\\e--FILE-ORANG-Kartika-Krisna\\\\bbe80898-c9ed-41da-b290-f342bf6f66fe\\\\tool-results\\\\bcpdb94sy.txt\")",
       "Bash(node -e \"console.log\\(require\\('./data/wedding.json'\\).gallery.length\\)\")",
-      "Bash(awk '{print $5/1024/1024 \" MB  \" $9}')"
+      "Bash(awk '{print $5/1024/1024 \" MB  \" $9}')",
+      "Bash(echo \"EXIT_CODE=$?\")",
+      "WebFetch(domain:jam.dev)"
     ]
   }
 }

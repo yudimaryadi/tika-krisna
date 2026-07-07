@@ -36,7 +36,7 @@
       "date": "Sabtu, 25 Juli 2026",
       "time": "07.00 WITA",
       "venue": "Gedung Serbaguna \"Sasai Ate\"",
-      "address": "Desa Beru, Kec. Jereweh, Kab. Sumbawa Barat (KSB)",
+      "address": "Desa Beru, Kec. Jereweh, Kab. Sumbawa Barat",
       "mapsUrl": "https://maps.google.com/?q=Gedung+Serbaguna+Sasai+Ate,Desa+Beru,Jereweh,Sumbawa+Barat"
     },
     {
@@ -46,16 +46,33 @@
       "date": "Sabtu, 25 Juli 2026",
       "time": "09.00 WITA",
       "venue": "Gedung Serbaguna \"Sasai Ate\"",
-      "address": "Desa Beru, Kec. Jereweh, Kab. Sumbawa Barat (KSB)",
+      "address": "Desa Beru, Kec. Jereweh, Kab. Sumbawa Barat",
       "mapsUrl": "https://maps.google.com/?q=Gedung+Serbaguna+Sasai+Ate,Desa+Beru,Jereweh,Sumbawa+Barat"
     }
   ],
   "loveStory": [
-    "Pertemuan sederhana di tahun 2017 itu di satu kampus, satu jurusan, satu kelas menjadi awal dari perjalanan panjang kami. Berawal dari hal kecil dan kebersamaan yang tak direncanakan, bahkan dari sekadar bermain Mobile Legend bersama. Dari sana, kami mulai saling mengenal, saling memahami, dan tanpa kami sadari saling menemukan.",
-    "Hingga pada 06 Februari 2018, kami memilih untuk melangkah lebih jauh. Bukan hanya sebagai dua orang yang saling suka, tapi sebagai dua hati yang ingin saling menjaga.",
-    "Perjalanan kami tidak selalu mudah. Kami pernah berdiri di dua perbedaan. Namun cinta ini tidak mengajarkan kami untuk menyerah, justru mengajarkan kami tentang arti perjuangan, kesabaran, dan keikhlasan. Karena bagi kami, cinta bukan hanya tentang bersama saat mudah, tetapi tetap memilih satu sama lain, bahkan saat dunia terasa tidak berpihak.",
-    "Dan pada akhirnya, dengan keyakinan dan niat yang tulus, kami dipertemukan dalam satu tujuan yang sama. Bukan sekadar menyatukan dua hati, tetapi juga menyatukan langkah, doa, dan masa depan.",
-    "Dari sebuah pertemuan sederhana, hingga keputusan besar untuk hidup bersama. Kini, kami percaya… ini bukan lagi tentang bagaimana kami dipertemukan, tetapi tentang bagaimana kami menjaga apa yang telah Tuhan satukan."
+    {
+      "heading": "2017",
+      "text": "Pertemuan sederhana di tahun 2017 itu di satu kampus, satu jurusan, satu kelas menjadi awal dari perjalanan panjang kami. Berawal dari hal kecil dan kebersamaan yang tak direncanakan, bahkan dari sekadar bermain Mobile Legend bersama. Dari sana, kami mulai saling mengenal, saling memahami, dan tanpa kami sadari saling menemukan.",
+      "photo": "/foto/IMG_3265.jpg"
+    },
+    {
+      "heading": "Februari 2018",
+      "text": "Hingga pada 06 Februari 2018, kami memilih untuk melangkah lebih jauh. Bukan hanya sebagai dua orang yang saling suka, tapi sebagai dua hati yang ingin saling menjaga.",
+      "photo": "/foto/IMG_3397.jpg"
+    },
+    {
+      "text": "Perjalanan kami tidak selalu mudah. Kami pernah berdiri di dua perbedaan. Namun cinta ini tidak mengajarkan kami untuk menyerah, justru mengajarkan kami tentang arti perjuangan, kesabaran, dan keikhlasan. Karena bagi kami, cinta bukan hanya tentang bersama saat mudah, tetapi tetap memilih satu sama lain, bahkan saat dunia terasa tidak berpihak.",
+      "photo": "/foto/IMG_3465.jpg"
+    },
+    {
+      "text": "Dan pada akhirnya, dengan keyakinan dan niat yang tulus, kami dipertemukan dalam satu tujuan yang sama. Bukan sekadar menyatukan dua hati, tetapi juga menyatukan langkah, doa, dan masa depan.",
+      "photo": "/foto/IMG_3605.jpg"
+    },
+    {
+      "text": "Dari sebuah pertemuan sederhana, hingga keputusan besar untuk hidup bersama. Kini, kami percaya… ini bukan lagi tentang bagaimana kami dipertemukan, tetapi tentang bagaimana kami menjaga apa yang telah Tuhan satukan.",
+      "photo": "/foto/IMG_3522.jpg"
+    }
   ],
   "loveStoryClosing": "Selamanya, dengan cinta yang kami perjuangkan bersama.",
   "gallery": [

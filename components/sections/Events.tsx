@@ -68,30 +68,30 @@ export default function Events() {
         {/* Date row dengan garis */}
         <div className="flex items-center justify-center gap-3 mb-1">
           <div className="flex-1 h-px bg-white/50" />
-          <p className="font-body text-[10px] tracking-[0.35em] uppercase text-white/70">SABTU</p>
-          <p className="font-display text-6xl sm:text-7xl font-light text-white leading-none">
+          <p className="font-body text-[9.5px] tracking-[0.35em] uppercase text-white/70">SABTU</p>
+          <p className="font-display text-[54px] sm:text-[66px] font-light text-white leading-none">
             25
           </p>
-          <p className="font-body text-[10px] tracking-[0.35em] uppercase text-white/70">JULI</p>
+          <p className="font-body text-[9.5px] tracking-[0.35em] uppercase text-white/70">JULI</p>
           <div className="flex-1 h-px bg-white/50" />
         </div>
-        <p className="font-body text-xs tracking-[0.4em] text-white/50 mb-6">2026</p>
+        <p className="font-body text-[11px] tracking-[0.4em] text-white/50 mb-6">2026</p>
 
         {/* AKAD | RESEPSI */}
         <div className="flex items-start justify-center mb-6">
           <div className="flex-1 text-center pr-4">
-            <p className="font-display text-2xl sm:text-3xl text-white font-semibold tracking-widest">
+            <p className="font-display text-[22px] sm:text-[27px] text-white tracking-widest">
               AKAD
             </p>
-            <p className="font-body text-sm text-white/70 mt-1.5">{akad.time}</p>
+            <p className="font-display text-[17px] text-white/70 mt-1.5">{akad.time}</p>
           </div>
           {/* Garis vertikal pemisah */}
           <div className="w-px self-stretch bg-white/50 mx-1" />
           <div className="flex-1 text-center pl-4">
-            <p className="font-display text-2xl sm:text-3xl text-white font-semibold tracking-widest">
+            <p className="font-display text-[22px] sm:text-[27px] text-white tracking-widest">
               RESEPSI
             </p>
-            <p className="font-body text-sm text-white/70 mt-1.5">{resepsi.time}</p>
+            <p className="font-display text-[17px] text-white/70 mt-1.5">{resepsi.time}</p>
           </div>
         </div>
 
@@ -99,10 +99,10 @@ export default function Events() {
         <div className="w-full h-px bg-white/25 mb-6" />
 
         {/* Venue */}
-        <p className="font-display italic text-2xl sm:text-3xl text-white mb-1.5">
+        <p className="font-display italic text-[20px] sm:text-[27px] text-white mb-1.5">
           {resepsi.venue}
         </p>
-        <p className="font-body text-sm text-white/60 leading-relaxed mb-7">
+        <p className="font-display italic text-[15px] text-white/60 leading-relaxed mb-7">
           {resepsi.address}
         </p>
 

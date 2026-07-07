@@ -67,20 +67,20 @@ export default function GroomSection() {
           </motion.div>
         </AnimatePresence>
 
-        {/* THE GROOM — kiri bawah, di atas info */}
-        <div className="absolute bottom-0 left-0 right-0 z-10 px-6 pb-10">
-          {/* THE GROOM label */}
-          <div className="leading-none mb-4">
-            <p
-              className="font-display italic font-bold text-white/15 leading-none select-none"
-              style={{ fontSize: "clamp(48px, 16vw, 80px)" }}
-            >
-              THE GROOM
-            </p>
-          </div>
+        {/* THE GROOM — pojok kiri atas, ghost/transparent, persis di pojokan foto */}
+        <div className="absolute top-5 left-5 z-0 leading-none pointer-events-none">
+          <p className="font-body text-[12px] tracking-[0.5em] uppercase text-white/50">THE</p>
+          <p
+            className="font-display font-bold text-white/25 leading-none -mt-0.5"
+            style={{ fontSize: "clamp(36px, 12vw, 64px)" }}
+          >
+            GROOM
+          </p>
+        </div>
 
+        <div className="absolute bottom-0 left-0 right-0 z-10 px-6 pb-10">
           <AnimatedSection direction="up">
-            <h2 className="font-display italic text-3xl sm:text-4xl text-white mb-1">
+            <h2 className="font-display italic text-[27px] sm:text-[33px] text-white mb-1">
               {groom.fullName}
             </h2>
             <p className="font-body text-xs text-white/60 mb-0.5">Putra dari</p>
