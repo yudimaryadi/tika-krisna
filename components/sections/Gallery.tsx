@@ -68,7 +68,7 @@ export default function Gallery() {
       <AnimatedSection className="relative z-10 px-4 pt-10 pb-2">
         <h2
           className="font-display italic font-bold text-white/[0.06] leading-none select-none text-center"
-          style={{ fontSize: "clamp(72px, 25vw, 140px)" }}
+          style={{ fontSize: "clamp(48px, 14vw, 105px)" }}
         >
           GALLERY
         </h2>
