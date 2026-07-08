@@ -21,7 +21,8 @@
       "Bash(node -e \"console.log\\(require\\('./data/wedding.json'\\).gallery.length\\)\")",
       "Bash(awk '{print $5/1024/1024 \" MB  \" $9}')",
       "Bash(echo \"EXIT_CODE=$?\")",
-      "WebFetch(domain:jam.dev)"
+      "WebFetch(domain:jam.dev)",
+      "WebSearch"
     ]
   }
 }

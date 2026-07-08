@@ -49,13 +49,13 @@ export default function Opening({ isOpen, onOpen, onMusicStart }: Props) {
           <div className="absolute inset-0 flex flex-col items-center justify-center pointer-events-none select-none overflow-hidden gap-0">
             <span
               className="font-display italic leading-none text-white/[0.05] uppercase"
-              style={{ fontSize: "clamp(80px, 28vw, 180px)", letterSpacing: "0.1em" }}
+              style={{ fontSize: "clamp(64px, 18vw, 140px)", letterSpacing: "0.1em" }}
             >
               {weddingData.couple.groom.nickname}
             </span>
             <span
               className="font-display italic leading-none text-white/[0.05] uppercase"
-              style={{ fontSize: "clamp(80px, 28vw, 180px)", letterSpacing: "0.1em" }}
+              style={{ fontSize: "clamp(64px, 18vw, 140px)", letterSpacing: "0.1em" }}
             >
               {weddingData.couple.bride.nickname}
             </span>
@@ -97,7 +97,7 @@ export default function Opening({ isOpen, onOpen, onMusicStart }: Props) {
                 transition={{ delay: 1.1, duration: 0.5 }}
                 className="mt-20 mb-2 text-center"
               >
-                <p className="font-body text-[9px] tracking-[0.4em] uppercase text-white/40 mb-1">
+                <p className="font-body text-[12px] tracking-[0.4em] uppercase text-white/60 mb-2">
                   Dear,
                 </p>
                 <p className="font-display text-xl sm:text-2xl text-white font-medium">

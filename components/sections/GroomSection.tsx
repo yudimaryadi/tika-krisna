@@ -9,7 +9,7 @@ import weddingData from "@/data/wedding.json";
 
 const GROOM_PHOTOS = [
   "/foto/krisna.jpg",
-  "/foto/IMG_3356.jpg",
+  "/foto/IMG_3375.jpg",
   "/foto/IMG_3640.jpg",
 ];
 
