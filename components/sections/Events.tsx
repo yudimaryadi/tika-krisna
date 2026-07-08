@@ -72,7 +72,7 @@ export default function Events() {
           <p className="font-display text-[54px] sm:text-[66px] font-light text-white leading-none">
             25
           </p>
-          <p className="font-body text-[9.5px] tracking-[0.35em] uppercase text-white/70">JULI</p>
+          <p className="font-body text-[9.5px] tracking-[0.35em] uppercase text-white/70">JULI&nbsp;</p>
           <div className="flex-1 h-px bg-white/50" />
         </div>
         <p className="font-body text-[11px] tracking-[0.4em] text-white/50 mb-6">2026</p>
